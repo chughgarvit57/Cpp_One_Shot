@@ -23,5 +23,7 @@ int main(){
     // 3. long,
     // 4. double,
     // 5. long long;
+    string a = "my name is avi";
+    cout<<a;
     return 0;
 }
