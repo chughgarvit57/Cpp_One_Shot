@@ -17,5 +17,11 @@ int main(){
     cout<<"The camelcase is example is when we write like this: marksInMaths"<<endl;
     float percentage = 77.825;
     cout<<"The percentage of you in Xth class is "<<percentage; 
+    // MOre datatypes are:
+    // 1. short,
+    // 2. int,
+    // 3. long,
+    // 4. double,
+    // 5. long long;
     return 0;
 }
