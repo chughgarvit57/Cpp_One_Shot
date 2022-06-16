@@ -18,8 +18,9 @@ public:
         cout << "The name of our first employee is " << this->name << " and his slary is " << this->salary << endl;
     }
 
-    void getSecretPassword(){
-        cout<<"The secret password of the employee is "<<this->secretPassword<<endl;
+    void getSecretPassword()
+    {
+        cout << "The secret password of the employee is " << this->secretPassword << endl;
     }
 
 private:
@@ -29,7 +30,7 @@ private:
 int main()
 {
     cout << "OOPS Concept in C++" << endl;
-    Employee avi("Avi Constructor", 200000 , 125687);
+    Employee avi("Avi Constructor", 200000, 125687);
     // avi.salary = 1500000;
     // avi.name = "GC";
     avi.printDetails();
